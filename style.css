@@ -1,0 +1,46 @@
+@font-face {
+    font-family: OneDay;
+    src: url('oneday.otf');
+}
+
+body {
+    background-image: url('wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    overflow: hidden;
+}
+
+#clockDiv {
+    margin-top: -3vw;
+}
+
+p {
+    text-align: center;
+    font-family: OneDay;
+    color: #f8e4f4b9;
+    font-size: 6vw;
+}
+
+#searchField {
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    height: 6vh;
+    background-color: #f8e4f4b9;
+    border-radius: 30vh;
+    border: none;
+    padding-left: 3vh;
+    transition: all 1s;
+
+}
+
+#searchField:focus {
+    outline: none;
+}
+
+#searchField:hover {
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
